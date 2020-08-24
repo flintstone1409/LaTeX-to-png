@@ -1,7 +1,7 @@
 # LaTeX-to-png
 Export LaTeX equations to PNGs.
 
-This runs on macOS (and probably on Linux).
+This runs on macOS and probably on Linux (haven't tested).
 
 # What is this?
 
@@ -33,7 +33,7 @@ Use the script
 
 You need the following tools to be installed:
 - TexLive for `pdflatex` and `pdfcrop`
-- poppler-utils (for `pdftoppm`)
+- poppler-utils for `pdftoppm`
 
 ## TexLive
 
@@ -51,7 +51,7 @@ Linux:
 sudo apt install texlive-full
 ```
 
-Of course you can use smaller installations but these installations should contain everything you will ever use, so it makes the least problems when compiling. In the end it's up to you how much you want to install.
+Of course you can use smaller installations but these installations should contain everything you will ever use, so it causes the least problems while compiling. In the end it's up to you how much you want to install.
 
 ## poppler-utils
 
@@ -75,3 +75,12 @@ You have the following options:
 - Set the output folder (make sure it exists)
 - change the dpi (default is 3000 to get high-res images even with small fomulas)
 - Set a output file for pdflatex console output (default is /dev/null)
+
+# Contribute
+
+I'd be happy to see the following improvements:
+- [ ] Confirmation this works fine on Linux
+- [ ] Instructions to use this on Windows
+- [ ] Instructions to execute this script as run option in [VS Code](https://code.visualstudio.com/)
+
+If you have anything else, just contact me (e.g. by opening an issue), although for now this works for me as I need it.
