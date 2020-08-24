@@ -19,6 +19,8 @@ The script compiles your LaTeX-Code to pdf, crops the pdf and renders it into an
 
 # How to use
 
+## bash
+
 Make the script executable
 ```sh
 chmod +x build.sh
@@ -28,6 +30,11 @@ Use the script
 ```sh
 ./build.sh <output_name>
 ```
+
+## VS Code
+
+Using Run tasks (default keyboard shortcut: `shift` + `cmd` + `R`) you can run this script from inside VS Code.
+You will then be prompted to enter a destination file name.
 
 # Installation
 
@@ -81,6 +88,6 @@ You have the following options:
 I'd be happy to see the following improvements:
 - [ ] Confirmation this works fine on Linux
 - [ ] Instructions to use this on Windows
-- [ ] Instructions to execute this script as run option in [VS Code](https://code.visualstudio.com/)
+- [x] Instructions to execute this script as run option in [VS Code](https://code.visualstudio.com/)
 
 If you have anything else, just contact me (e.g. by opening an issue), although for now this works for me as I need it.
